@@ -41,8 +41,10 @@ plt.xlabel('Received Signal')
 plt.ylabel('Channel Response')  
 plt.title('MMSE Equalization')  
 plt.legend()  
-plt.show()
-## 4. Results
+plt.show()  
+## 4. Graph
+![1w](https://github.com/Advith147/Channel_Equalisation_through_Machine_Learning_Techniques/assets/109427643/15f1d729-c484-49d2-9d19-5ae3c0bc704a)
+## 5. Results
 The results of this project are summarized as follows:  
 ● Successful implementation: For channel equalization, the project effectively applied machine learning methods, particularly linear regression.  
 ● Compatibility with external dataset: The CSV file-based external dataset, which was used to train and assess the models, proved to be versatile and compatible.  
@@ -51,9 +53,10 @@ The results of this project are summarized as follows:
 improved system performance.  
 ● Application to the real world: The project showed how machine learning approaches could be used to solve channel equalization problems in real-world communication contexts.  
 ● Diversity of datasets is important: The initiative brought attention to the importance of precise and varied datasets for building strong models that can handle a variety of channel conditions.  
-## 5. Discussion
+![1w](https://github.com/Advith147/Channel_Equalisation_through_Machine_Learning_Techniques/assets/109427643/d1e6d401-0752-4145-bd43-fe5671daca2b)
+## 6. Discussion
 The study was focused on channel equalization using machine learning, more specifically linear regression. The study demonstrated the adaptability and compatibility of machine learning algorithms with a variety of data sources by using an external dataset in CSV format. In order to accurately estimate equalization parameters and reduce channel distortions, the topic emphasizes the successful use of feature engineering, data preparation, and model training. The outcomes showed enhanced signal quality and dependable data transmission, highlighting the capability of machine learning algorithms to handle actual communication issues. The study advances knowledge of channel equalization and highlights the importance of precise and diverse datasets for building reliable models in communication systems.
-## 6. Future enhancement
+## 7. Future enhancement
 The investigation and incorporation of more sophisticated machine learning methods, such as deep learning models, for channel equalisation, could be a future improvement for this project. Convolutional neural networks (CNNs) and recurrent neural networks (RNNs), two types of deep learning models, have demonstrated promising performance in a number of signal processing tasks. It might be possible to enhance the precision and effectiveness of channel equalisation by making use of the hierarchical representations and temporal connections discovered by these models. The models' robustness and adaptability to shifting channel circumstances may also be improved by adding real-time adaption capabilities. The dataset could be improved in the future by being enlarged to cover a greater variety of channel impairments and scenarios.
-## 7. Conclusion
+## 8. Conclusion
 In conclusion, this study successfully applied machine learning techniques for channel equalization, particularly linear regression. A CSV file representing the dataset used for training and evaluation was obtained externally. The research aims to reduce the effects of channel distortions and improve the overall performance of communication systems by utilizing the capabilities of machine learning.The linear regression approach successfully predicted the channel equalization parameters by learning the underlying patterns in the dataset through feature engineering, data preprocessing, and model training. The trained model's results demonstrated its capacity to precisely correct for channel deficiencies, resulting in better signal quality and dependable data delivery.With the usage of an external dataset in the form of a CSV file, more adaptability and compatibility with other data sources were possible. This project underlines the significance of accurate and diverse datasets for training robust models in real-world communication scenarios and illustrates the potential of machine learning approaches, notably linear regression, in addressing channel equalization difficulties
